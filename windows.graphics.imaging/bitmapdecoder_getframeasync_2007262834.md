@@ -17,7 +17,7 @@ Asynchronously retrieves a frame from the image file.
 The zero-based index of the frame to be retrieved.
 
 ## -returns
-Object that manages the asynchronous retrieval of the frame.
+Object that manages the asynchronous retrieval of the [BitmapFrame](bitmapframe.md).
 
 ## -remarks
 You don't need to use this method to access data from the first frame in an image file. [BitmapDecoder](bitmapdecoder.md) already provides a method to access the first frame.
